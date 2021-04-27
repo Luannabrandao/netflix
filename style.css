@@ -1,0 +1,137 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    background: var(--preta);
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+.imagem{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/sobrenatural.png);
+    height: 650px;
+    background-size: cover;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container img{
+    margin-right: 70px;
+}
+.i-fad-fa-search{
+    color:white;
+
+}    
+
+header .logo{
+    color: var(--vermelho);
+    font-family:'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+main{
+    margin-top: 180px;
+}
+.botoes-inicio{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    height: 100%;
+    color:#AAA;
+   
+}
+.botoes-inicio svg{
+    margin: 10px;
+}
+
+
+/* Filme Principal */
+.filme-principal{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+
+}
+.filme-principal .container h4{
+    color:var(--vermelho)
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
+    font-family:'Trebuchet MS' Arial, Helvetica, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width:70%;
+
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
