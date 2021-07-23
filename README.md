@@ -14,7 +14,7 @@ no qual criei a minha versão do Netflix!
 
 * CSS básico
 
-*Java Script
+* Java Script
 
 
 
